@@ -1,24 +1,40 @@
-import { Flex } from "@chakra-ui/react";
+import { Grid, GridItem, Flex } from "@chakra-ui/react";
 import { Type } from "./Type";
 
 export function TravelType() {
   return (
     <Flex
       alignItems="center"
-      flexWrap="wrap"
-      justifyContent={["space-around", "space-between"]}
-      marginY={[6, 20]}
-      paddingX={[4, 4, 8, 36]}
+      margin="0 auto"
+      maxWidth="1120px"
+      paddingX={[4, 4, 8, 0]}
+      width="100%"
     >
-      <Type icon="icons/cocktail.svg" name="vida noturna" />
+      <Grid
+        templateColumns={["repeat(2, 1fr)", "repeat(5, 1fr)"]}
+        width="100%"
+        justifyContent="center"
+      >
+        <GridItem>
+          <Type icon="icons/cocktail.svg" name="lazer" />
+        </GridItem>
 
-      <Type icon="icons/surf.svg" name="praia" />
+        <GridItem>
+          <Type icon="icons/surf.svg" name="praia" />
+        </GridItem>
 
-      <Type icon="icons/building.svg" name="moderno" />
+        <GridItem>
+          <Type icon="icons/building.svg" name="moderno" />
+        </GridItem>
 
-      <Type icon="icons/museum.svg" name="clássico" />
+        <GridItem>
+          <Type icon="icons/museum.svg" name="clássico" />
+        </GridItem>
 
-      <Type icon="icons/earth.svg" name="e mais..." />
+        <GridItem colSpan={[2, 1]}>
+          <Type icon="icons/earth.svg" name="e mais..." />
+        </GridItem>
+      </Grid>
     </Flex>
   );
 }

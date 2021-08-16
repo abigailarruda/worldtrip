@@ -6,10 +6,10 @@ export const theme = extendTheme({
       "500": "#ffba08",
     },
     gray: {
-      "600": "#47585B",
-      "300": "#999999",
-      "100": "#DADADA",
-      "50": "#F5F8FA",
+      "600": "#0D3C5C",
+      "300": "#829099",
+      "100": "#CEE4F2",
+      "50": "#F7F9FA",
     },
   },
   fonts: {
@@ -26,7 +26,7 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: "gray.50",
+        bg: "white",
         color: "gray.600",
       },
     },

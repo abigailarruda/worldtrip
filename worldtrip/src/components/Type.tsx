@@ -1,10 +1,4 @@
-import {
-  Flex,
-  Text,
-  Image,
-  Stack,
-  useBreakpointValue,
-} from "@chakra-ui/react";
+import { Flex, Text, Image, Stack, useBreakpointValue } from "@chakra-ui/react";
 
 interface TypeProps {
   icon: string;
@@ -24,24 +18,18 @@ export function Type({ icon, name }: TypeProps) {
       justifyContent="center"
     >
       {isWideVersion && (
-        <Image
-          alt={name}
-          height="85px"
-          marginBottom={6}
-          src={icon}
-          width="85px"
-        />
+        <Image alt={name} height={20} marginBottom={6} src={icon} width={20} />
       )}
 
       <Text
         alignItems="center"
         display="flex"
-        fontSize="2xl"
+        fontSize={["md", "2xl"]}
         fontWeight="semibold"
         justifyContent="center"
       >
         {!isWideVersion && (
-          <Text color="yellow.500" fontSize="4xl" mr="2">
+          <Text color="yellow.500" fontSize={["2xl", "5xl"]} mr="2">
             •
           </Text>
         )}

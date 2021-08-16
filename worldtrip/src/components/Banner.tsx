@@ -21,48 +21,55 @@ export function Banner() {
       backgroundRepeat="no-repeat"
       backgroundSize={!isWideVersion ? "cover" : "auto"}
       height={[40, 96]}
-      justifyContent={["flex-start", "space-between"]}
-      paddingX={[4, 4, 8, 36]}
+      paddingX={[4, 4, 8, 8]}
+      width="100%"
     >
       <Flex
         alignItems="flex-start"
-        flexDirection="column"
-        height={[40, 40, "100%", "21rem"]}
-        justifyContent="center"
+        height={[40, 96]}
+        justifyContent={["flex-start", "space-between"]}
+        margin="0 auto"
+        maxWidth="1120px"
+        width="100%"
       >
-        <Heading
-          as="h1"
-          color="gray.50"
-          fontSize={["xl", "4xl"]}
-          fontWeight="medium"
-          lineHeight={["1.875rem", "3.375rem"]}
-          marginBottom={4}
-        >
-          5 Continentes,
-          <br />
-          infinitas possibilidades.
-        </Heading>
-
-        <Text
-          color="gray.50"
-          fontSize={["sm", "xl"]}
-          fontWeight="normal"
-          maxWidth={isWideVersion ? "32rem" : "100%"}
-        >
-          Chegou a hora de tirar do papel a viagem que você
-          sempre sonhou.
-        </Text>
-      </Flex>
-
-      {isWideVersion && (
         <Flex
-          alignItems="flex-end"
-          height="100%"
+          alignItems="flex-start"
+          flexDirection="column"
+          height={[40, 40, "100%", "21rem"]}
           justifyContent="center"
         >
-          <Image alt="airplane" src="airplane.svg" />
+          <Heading
+            as="h1"
+            color="white"
+            fontSize={["2xl", "2rem"]}
+            fontWeight="medium"
+            lineHeight={["2.25rem", "3rem"]}
+            marginBottom={2}
+            textAlign={["center", "left"]}
+            width="100%"
+          >
+            5 Continentes,
+            <br />
+            infinitas possibilidades.
+          </Heading>
+
+          <Text
+            color="gray.50"
+            fontSize={["md", "lg"]}
+            fontWeight="normal"
+            maxWidth={isWideVersion ? "32rem" : "100%"}
+            textAlign={["center", "left"]}
+          >
+            Chegou a hora de tirar do papel a viagem que você sempre sonhou.
+          </Text>
         </Flex>
-      )}
+
+        {isWideVersion && (
+          <Flex alignItems="flex-end" height="100%" justifyContent="center">
+            <Image alt="airplane" src="airplane.svg" />
+          </Flex>
+        )}
+      </Flex>
     </Flex>
   );
 }
