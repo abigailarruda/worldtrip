@@ -4,6 +4,7 @@ import { Divider, Flex, Heading, Stack } from "@chakra-ui/react";
 
 import { Banner } from "../components/Banner";
 import { TravelType } from "../components/TravelType";
+import { Swiper } from "../components/Swiper";
 
 export default function Home() {
   return (
@@ -39,6 +40,10 @@ export default function Home() {
           <br />
           Então escolha seu continente
         </Heading>
+
+        <Swiper />
+
+        <br />
       </Stack>
 
       <br />
