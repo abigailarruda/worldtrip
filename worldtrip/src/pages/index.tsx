@@ -1,17 +1,39 @@
 import Head from "next/head";
 
-import { Divider, Flex, Heading, Stack } from "@chakra-ui/react";
+import { Divider, Heading, Stack } from "@chakra-ui/react";
 
 import { Banner } from "../components/Banner";
 import { TravelType } from "../components/TravelType";
 import { Swiper } from "../components/Swiper";
+import { Header } from "../components/Header";
+
+import { useEffect, useState } from "react";
+
+import { api } from "../services/api";
+
+interface Continent {
+  name: string;
+  quote: string;
+  image: string;
+  url: string;
+}
 
 export default function Home() {
+  const [continents, setContinents] = useState<Continent[]>([]);
+
+  useEffect(() => {
+    api.get("/continents").then((response) => {
+      setContinents(response.data);
+    });
+  }, []);
+
   return (
     <>
       <Head>
         <title>home | worldtrip</title>
       </Head>
+
+      <Header />
 
       <Stack
         alignItems="center"
@@ -41,7 +63,7 @@ export default function Home() {
           Então escolha seu continente
         </Heading>
 
-        <Swiper />
+        <Swiper continents={continents} />
 
         <br />
       </Stack>

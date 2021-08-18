@@ -29,7 +29,7 @@ export function Type({ icon, name }: TypeProps) {
         justifyContent="center"
       >
         {!isWideVersion && (
-          <Text color="yellow.500" fontSize={["2xl", "5xl"]} mr="2">
+          <Text as="span" color="yellow.500" fontSize={["2xl", "5xl"]} mr="2">
             •
           </Text>
         )}

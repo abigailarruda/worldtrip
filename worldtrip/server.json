@@ -1,0 +1,208 @@
+{
+  "continents": [
+    {
+      "name": "América do Norte",
+      "url": "north-america",
+      "image": "https://i.ibb.co/tbJ5x6R/north-america.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus arcu, rutrum ac efficitur ac, feugiat ac odio. Integer nisl justo, semper ac tempor at, sagittis a nunc. Nullam malesuada laoreet dolor sit amet finibus. Sed vehicula ullamcorper lectus. Phasellus lacus dolor, interdum ut laoreet congue, hendrerit non metus. Donec aliquet id tellus quis convallis. Praesent sit amet enim quis massa viverra tempus eget sed mi. Quisque cursus magna pulvinar ipsum tempus, ut lacinia nisi sodales.",
+      "quote": "O terceiro maior continente",
+      "numberOfCountries": 3,
+      "numberOfLanguages": 165,
+      "numberOfMostPopularCities": 10,
+      "cities": [
+        {
+          "name": "Toronto",
+          "country": "Canadá",
+          "image": "https://i.ibb.co/xLypkNq/toronto.png",
+          "countryFlag": "https://i.ibb.co/3yjGLfF/canada.png"
+        },
+        {
+          "name": "Cancún",
+          "country": "México",
+          "image": "https://i.ibb.co/F3JW55Q/cancun.png",
+          "countryFlag": "https://i.ibb.co/vzQQpmX/mexico.png"
+        },
+        {
+          "name": "Los Angeles",
+          "country": "Estados Unidos",
+          "image": "https://i.ibb.co/2Ys7WDS/la.png",
+          "countryFlag": "https://i.ibb.co/QQtjVtX/us.png"
+        },
+        {
+          "name": "São Francisco",
+          "country": "Estados Unidos",
+          "image": "https://i.ibb.co/NCF4Sst/sf.png",
+          "countryFlag": "https://i.ibb.co/QQtjVtX/us.png"
+        }
+      ]
+    },
+    {
+      "name": "América do Sul",
+      "url": "south-america",
+      "image": "https://i.ibb.co/hWGQVJf/south-america.png",
+      "description": "Aliquam fringilla bibendum massa sed scelerisque. Sed ut risus sed magna interdum aliquam et vitae nunc. Phasellus id eros vel velit accumsan pharetra. Mauris nibh quam, congue et leo sit amet, feugiat pharetra est. Integer lacus lectus, commodo id pulvinar non, cursus vitae metus. Nam gravida turpis et est ornare, non mattis nunc pellentesque. Sed in porttitor est, pellentesque ornare felis. Suspendisse non nibh at est molestie eleifend non sed lacus. Morbi gravida urna a augue ultricies, non eleifend metus molestie.",
+      "quote": "O quarto maior continente",
+      "numberOfCountries": 14,
+      "numberOfLanguages": 448,
+      "numberOfMostPopularCities": 3,
+      "cities": [
+        {
+          "name": "Rio de Janeiro",
+          "country": "Brasil",
+          "image": "https://i.ibb.co/5k9FZNW/rio-de-janeiro.png",
+          "countryFlag": "https://i.ibb.co/2PW7XbW/brazil.png"
+        },
+        {
+          "name": "Buenos Aires",
+          "country": "Argentina",
+          "image": "https://i.ibb.co/z84rd6C/buenos-aires.png",
+          "countryFlag": "https://i.ibb.co/BnSZ3Dq/argentina.png"
+        },
+        {
+          "name": "Lima",
+          "country": "Peru",
+          "image": "https://i.ibb.co/3SYF2dV/lima.png",
+          "countryFlag": "https://i.ibb.co/8Nx2GVr/peru.png"
+        }
+      ]
+    },
+    {
+      "name": "Ásia",
+      "url": "asia",
+      "image": "https://i.ibb.co/QDRTTrx/asia.png",
+      "description": "Suspendisse efficitur dignissim orci, eu hendrerit nisi varius vitae. In hac habitasse platea dictumst. Phasellus molestie feugiat sem, et dictum leo tempor eu. Curabitur dapibus lorem velit. Morbi fringilla fringilla placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum enim non tristique ornare. Maecenas metus ante, commodo in aliquam nec, faucibus id urna. Integer ut tempus risus, et pharetra velit.",
+      "quote": "O maior continente",
+      "numberOfCountries": 51,
+      "numberOfLanguages": 2300,
+      "numberOfMostPopularCities": 50,
+      "cities": [
+        {
+          "name": "Seul",
+          "country": "Coreia do Sul",
+          "image": "https://i.ibb.co/PCvKPHJ/seul.png",
+          "countryFlag": "https://i.ibb.co/4ML0MFG/coreia-do-sul.png"
+        },
+        {
+          "name": "Hong Kong",
+          "country": "China",
+          "image": "https://i.ibb.co/5jG14S8/hong-kong.png",
+          "countryFlag": "https://i.ibb.co/L1ss9jz/china.png"
+        },
+        {
+          "name": "Kuala Lumpur",
+          "country": "Malásia",
+          "image": "https://i.ibb.co/fS8MCgb/kuala-lumpur.png",
+          "countryFlag": "https://i.ibb.co/ygK2D4w/malaysia.png"
+        },
+        {
+          "name": "Deli",
+          "country": "Índia",
+          "image": "https://i.ibb.co/ncfGCvK/deli.png",
+          "countryFlag": "https://i.ibb.co/QvH4KWM/india.png"
+        }
+      ]
+    },
+    {
+      "name": "África",
+      "url": "africa",
+      "image": "https://i.ibb.co/w6wFB2n/africa.png",
+      "description": "Morbi mattis efficitur felis. Nunc pellentesque, enim at ornare ornare, dui nisl fermentum diam, at commodo tortor tellus at sapien. Etiam hendrerit sapien tortor, sed vulputate lorem efficitur sed. Nullam in ultricies magna. Fusce aliquam, eros eu cursus volutpat, nibh nunc cursus massa, sit amet varius diam metus in orci. Aliquam erat volutpat. Suspendisse nec nunc eget est luctus mattis. Nullam quis metus sagittis, maximus nisi sit amet, ultricies tortor. Praesent faucibus non est in dapibus.",
+      "quote": "O segundo maior continente",
+      "numberOfCountries": 54,
+      "numberOfLanguages": 2000,
+      "numberOfMostPopularCities": 4,
+      "cities": [
+        {
+          "name": "Cairo",
+          "country": "Egito",
+          "image": "https://i.ibb.co/0QTKnkz/cairo.png",
+          "countryFlag": "https://i.ibb.co/fC2MYdT/egito.png"
+        },
+        {
+          "name": "Hurghada",
+          "country": "Egito",
+          "image": "https://i.ibb.co/kmMMWcm/hurghada.png",
+          "countryFlag": "https://i.ibb.co/fC2MYdT/egito.png"
+        },
+        {
+          "name": "Marraquexe",
+          "country": "Marrocos",
+          "image": "https://i.ibb.co/2gHLSNb/marraquexe.png",
+          "countryFlag": "https://i.ibb.co/Nsp6Ldr/marrocos.png"
+        },
+        {
+          "name": "Joanesburgo",
+          "country": "África do Sul",
+          "image": "https://i.ibb.co/FkQq70F/joanesburgo.png",
+          "countryFlag": "https://i.ibb.co/Lvz2YC0/africa-do-sul.png"
+        }
+      ]
+    },
+    {
+      "name": "Oceania",
+      "url": "oceania",
+      "image": "https://i.ibb.co/bLGFMrV/oceania.png",
+      "description": "Duis mattis ex tellus, at dignissim nulla euismod sed. Vestibulum quis sem et nibh sollicitudin suscipit. Integer sed aliquam purus. Vivamus sodales tincidunt metus sollicitudin mattis. Cras in pellentesque mauris. Quisque ullamcorper dui turpis. Phasellus magna lorem, tincidunt feugiat iaculis sit amet, gravida at lacus. Donec ac mauris molestie risus pharetra lobortis. Morbi erat urna, bibendum non turpis sed, blandit dictum tortor. Nam ultrices ante nisl, vel malesuada lacus blandit nec.",
+      "quote": "O menor continente",
+      "numberOfCountries": 14,
+      "numberOfLanguages": 5000,
+      "numberOfMostPopularCities": 3,
+      "cities": [
+        {
+          "name": "Sydney",
+          "country": "Austrália",
+          "image": "https://i.ibb.co/8mfCgBX/sydney.png",
+          "countryFlag": "https://i.ibb.co/RQ381pc/australia.png"
+        },
+        {
+          "name": "Melbourne",
+          "country": "Austrália",
+          "image": "https://i.ibb.co/7bDdBf2/melbourne.png",
+          "countryFlag": "https://i.ibb.co/RQ381pc/australia.png"
+        },
+        {
+          "name": "Auckland",
+          "country": "Nova Zelândia",
+          "image": "https://i.ibb.co/NL6wK62/auckland.png",
+          "countryFlag": "https://i.ibb.co/zxYPYr0/new-zealand.png"
+        }
+      ]
+    },
+    {
+      "name": "Europa",
+      "url": "europe",
+      "image": "https://i.ibb.co/SxrHhKJ/europe.png",
+      "description": "Proin odio diam, sagittis eget tellus ultricies, hendrerit consequat eros. Cras purus nibh, placerat eget tempus sed, imperdiet a justo. In mi eros, malesuada at nibh sed, semper feugiat dui. Nullam accumsan tincidunt malesuada. Cras bibendum orci quis erat dignissim vulputate. Phasellus a posuere massa. Nam fringilla maximus mauris, non mattis quam porttitor et. Fusce accumsan sollicitudin nibh et ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "quote": "O sexto maior continente",
+      "numberOfCountries": 50,
+      "numberOfLanguages": 24,
+      "numberOfMostPopularCities": 32,
+      "cities": [
+        {
+          "name": "Londres",
+          "country": "Inglaterra",
+          "image": "https://i.ibb.co/n0mMz10/londres.png",
+          "countryFlag": "https://i.ibb.co/1GcYR6F/england.png"
+        },
+        {
+          "name": "Paris",
+          "country": "França",
+          "image": "https://i.ibb.co/F6Hfb8W/paris.png",
+          "countryFlag": "https://i.ibb.co/4mtBJ9Y/france.png"
+        },
+        {
+          "name": "Milão",
+          "country": "Itália",
+          "image": "https://i.ibb.co/w6btYWY/milao.png",
+          "countryFlag": "https://i.ibb.co/hm4BKrX/italy.png"
+        },
+        {
+          "name": "Atenas",
+          "country": "Grécia",
+          "image": "https://i.ibb.co/nskVt1d/atenas.png",
+          "countryFlag": "https://i.ibb.co/XSKBg4z/greece.png"
+        }
+      ]
+    }
+  ]
+}
